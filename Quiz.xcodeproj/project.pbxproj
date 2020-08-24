@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA34BCA91F82971200109259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA34BCA81F82971200109259 /* AppDelegate.swift */; };
-		AA34BCAB1F82971200109259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA34BCAA1F82971200109259 /* ViewController.swift */; };
+		AA34BCAB1F82971200109259 /* View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA34BCAA1F82971200109259 /* View Controller.swift */; };
 		AA34BCAE1F82971200109259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA34BCAC1F82971200109259 /* Main.storyboard */; };
 		AA34BCB01F82971200109259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA34BCAF1F82971200109259 /* Assets.xcassets */; };
 		AA34BCB31F82971200109259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA34BCB11F82971200109259 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		AA34BCA51F82971200109259 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA34BCA81F82971200109259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA34BCAA1F82971200109259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA34BCAA1F82971200109259 /* View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View Controller.swift"; sourceTree = "<group>"; };
 		AA34BCAD1F82971200109259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA34BCAF1F82971200109259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA34BCB21F82971200109259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				AA34BCA81F82971200109259 /* AppDelegate.swift */,
-				AA34BCAA1F82971200109259 /* ViewController.swift */,
+				AA34BCAA1F82971200109259 /* View Controller.swift */,
 				AA34BCAC1F82971200109259 /* Main.storyboard */,
 				AA34BCAF1F82971200109259 /* Assets.xcassets */,
 				AA34BCB11F82971200109259 /* LaunchScreen.storyboard */,
@@ -188,20 +188,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Big Nerd Ranch";
 				TargetAttributes = {
 					AA34BCA41F82971200109259 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 					};
 					AA34BCB81F82971300109259 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 						TestTargetID = AA34BCA41F82971200109259;
 					};
 					AA34BCC31F82971300109259 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 						TestTargetID = AA34BCA41F82971200109259;
 					};
@@ -259,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA34BCAB1F82971200109259 /* ViewController.swift in Sources */,
+				AA34BCAB1F82971200109259 /* View Controller.swift in Sources */,
 				AA34BCA91F82971200109259 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +332,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +340,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -386,6 +391,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +399,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -431,7 +438,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranchd.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -445,7 +452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranchd.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -460,7 +467,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranchd.QuizTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiz.app/Quiz";
 			};
@@ -476,7 +483,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranchd.QuizTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiz.app/Quiz";
 			};
@@ -491,7 +498,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranchd.QuizUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Quiz;
 			};
@@ -506,7 +513,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranchd.QuizUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Quiz;
 			};
